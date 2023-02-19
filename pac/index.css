@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: #FF6A6A;
+    overflow: hidden;
+}
+.text{
+    position: absolute;
+    left: 20px;
+    top:120px;
+    color:rgb(106, 213, 255);
+}
+.text span{
+    display: inline-block;
+    padding-left: 2px;
+    /* text-decoration: underline; */
+    font-size:18px;
+    padding-bottom: 5px;
+}
+#clock{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.label{
+    display: inline-block;
+    /* color: #9932CC; */
+    color: #3004F1;
+
+    font-size: 14px;
+    text-align: center;
+    padding: 0 5px;
+    transform-origin: 0% 0%;
+    transition: all 1s;
+}
+.btn{
+    width: 158px;
+    height: 63px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -74px;
+    cursor: pointer;
+}
